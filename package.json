@@ -1,0 +1,44 @@
+{
+  "name": "react-simple-google-maps",
+  "version": "0.1.0",
+  "description": "Simple components for rendering Google Maps via the Google Maps JavaScript API",
+  "main": "./lib/index.js",
+  "scripts": {
+    "prepublish": "node_modules/.bin/webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PayloadDev/react-simple-google-maps.git"
+  },
+  "keywords": [
+    "react",
+    "google",
+    "maps",
+    "google maps",
+    "coffeescript"
+  ],
+  "author": "Ben Sargent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PayloadDev/react-simple-google-maps/issues"
+  },
+  "homepage": "https://github.com/PayloadDev/react-simple-google-maps#readme",
+  "dependencies": {
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "cjsx-loader": "3.0.0",
+    "coffee-loader": "0.7.2",
+    "coffee-react": "^5.0.0",
+    "coffee-react-transform": "^4.0.0",
+    "coffee-script": "^1.10.0",
+    "react": "^15.1.0",
+    "react-addons-shallow-compare": "^15.1.0",
+    "webpack": "^1.11.0",
+    "webpack-umd-external": "^1.0.2"
+  },
+  "peerDependencies": {
+    "react": "^15.1.0",
+    "react-addons-shallow-compare": "^15.1.0"
+  }
+}
