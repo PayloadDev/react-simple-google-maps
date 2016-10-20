@@ -16,7 +16,8 @@ module.exports = {
     umdNamedDefine: true
   },
   externals: webpackUMDExternal({
-    'react': 'React'
+    'react': 'React',
+    'react-addons-shallow-compare': 'react-addons-shallow-compare'
   }),
   resolve: {
     extensions: ['', '.js', '.cjsx', '.coffee', '.js.coffee', '.js.cjsx']
