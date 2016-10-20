@@ -1,6 +1,6 @@
 {
   "name": "react-simple-google-maps",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple components for rendering Google Maps via the Google Maps JavaScript API",
   "main": "./lib/index.js",
   "scripts": {
