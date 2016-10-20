@@ -33,7 +33,7 @@ markerPosition = new google.map.LatLng(50, -115);
   <Marker
     position={markerPosition}
     title='Start'
-    zIndex=1
+    zIndex=1>
     <InfoWindow>
       <h1>I am a marker!</h1>
     </InfoWindow>
